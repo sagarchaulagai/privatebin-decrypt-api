@@ -1,0 +1,27 @@
+{
+  "name": "privatebin-decrypt-api",
+  "version": "1.0.0",
+  "description": "Vercel API for decrypting PrivateBin content",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "@scure/base": "^1.1.5"
+  },
+  "devDependencies": {
+    "vercel": "^48.1.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "privatebin",
+    "decrypt",
+    "api",
+    "vercel"
+  ],
+  "author": "",
+  "license": "MIT"
+}
